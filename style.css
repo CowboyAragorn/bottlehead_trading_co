@@ -1,0 +1,94 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: seagreen;
+    flex-grow: 1;
+    border: black solid 1px;
+}
+
+
+.right-links{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 25px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+.runner1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: seagreen;
+}
+
+.banner1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 40%;
+}
+
+.text1{
+    font-size: 15pt;
+}
+
+button{
+    padding: 15px 30px;
+    border-radius: 16px;
+    width: fit-content;
+}
+.img1{
+    max-height: auto;
+    max-width: 450px;
+    border-radius: 70%;
+    padding: 10px;
+}
+.img{
+    width: 350px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+
+.ports{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.portlist{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+.cards{
+    max-width: 350px;
+}
+test
