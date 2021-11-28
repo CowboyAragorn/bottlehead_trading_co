@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
@@ -13,6 +14,9 @@ body{
     border: black solid 1px;
 }
 
+.logo{
+    margin-left: 20px;
+}
 
 .right-links{
     display: flex;
@@ -21,6 +25,7 @@ body{
     flex-wrap: wrap;
     gap: 20px;
     padding: 25px;
+    font-size: 15pt;
 }
 ul{
     list-style-type: none;
@@ -35,10 +40,13 @@ a{
     
 }
 
-.runner1{
+.runner1, .call2a{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.runner1{
     gap: 100px;
     background-color: seagreen;
 }
@@ -46,32 +54,44 @@ a{
 .banner1{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     max-width: 40%;
+    
+}
+
+.title{
+    font-size: 40px;
+    margin: 10px;
 }
 
 .text1{
-    font-size: 15pt;
+    font-size: 18pt;
+    margin: 10px;
 }
 
 button{
     padding: 15px 30px;
     border-radius: 16px;
     width: fit-content;
+    font-size: 12pt;
+    margin-bottom: : 10pt;
 }
+
 .img1{
     max-height: auto;
-    max-width: 450px;
+    max-width: 350px;
     border-radius: 70%;
     padding: 10px;
+    
 }
+
+
 .img{
     width: 350px;
     height: 250px;
     border-radius: 50%;
 }
-
 
 .ports{
     text-align: center;
@@ -83,11 +103,53 @@ button{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 25px;
+    margin: 20px
 
 }
 
 .cards{
     max-width: 350px;
+    font-size: 18pt;
+    font-weight: 500;
+}
+
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    background-color: turquoise;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote{
+    max-width: 36%;
+    font-size: 24pt;
+    font-style: italic;
+}
+.attribution{
+    display: flex;
+    font-weight: bold;
+    font-size: 18pt;
+    margin-left: 30%;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.call2a{
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: seagreen;
 }
