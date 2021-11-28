@@ -51,7 +51,6 @@ a{
 .runner1{
     gap: 100px;
     background-color: seagreen;
-    flex-wrap: wrap;
 }
 
 .banner1{
@@ -81,12 +80,21 @@ a{
     color: #03272e;
 }
 
+.img1{
+    max-height: auto;
+    max-width: 350px;
+    border-radius: 70%;
+    padding: 10px;
+    margin-bottom: 30px;
+    
+}
+
 button{
     padding: 10px 25px;
     border-radius: 16px;
     width: fit-content;
     font-size: 12pt;
-    margin-bottom: : 10pt;
+    margin-bottom: 10pt;
 }
 
 .button1{
@@ -95,20 +103,31 @@ button{
     color: black;
 }
 
+@media screen and (min-width:320px) and (max-width: 812px){
+    .runner1{
+        flex-wrap:wrap;
+        gap: 30px;
+    }
+    .banner1{
+        max-width: 55%;
+    }
+    .title{
+        font-size: 25pt;
+    }
+    .text1{
+        font-size: 16pt;
+    }
+
+    .img1{
+        max-width: 250px;
+        max-height: auto;
+    }
+}
+
 .button2{
     background-color: seagreen;
     border: solid 1px black;
     color: black;
-}
-
-
-.img1{
-    max-height: auto;
-    max-width: 350px;
-    border-radius: 70%;
-    padding: 10px;
-    margin-bottom: 30px;
-    
 }
 
 
