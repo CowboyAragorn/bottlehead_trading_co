@@ -12,7 +12,7 @@ body{
     align-items: center;
     background-color: seagreen;
     flex-grow: 1;
-    border: black solid 1px;
+    padding-bottom: 75px;
 }
 
 .logo{
@@ -44,7 +44,7 @@ a{
 .runner1, .call2a{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: top;
     text-align: left;
 }
 
@@ -64,28 +64,48 @@ a{
 }
 
 .title{
-    font-size: 40px;
+    font-size: 60px;
+    margin: 10px;
+}
+
+.title2{
+    font-size: 35px;
     margin: 10px;
 }
 
 .text1{
     font-size: 18pt;
     margin: 10px;
+    color: #03272e;
 }
 
 button{
-    padding: 15px 30px;
+    padding: 10px 25px;
     border-radius: 16px;
     width: fit-content;
     font-size: 12pt;
     margin-bottom: : 10pt;
 }
 
+.button1{
+    background-color: brown;
+    border: solid 1px black;
+    color: black;
+}
+
+.button2{
+    background-color: seagreen;
+    border: solid 1px black;
+    color: black;
+}
+
+
 .img1{
     max-height: auto;
     max-width: 350px;
     border-radius: 70%;
     padding: 10px;
+    margin-bottom: 30px;
     
 }
 
@@ -105,7 +125,7 @@ button{
 .portlist{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: top;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 25px;
@@ -128,7 +148,7 @@ button{
 }
 
 .quote{
-    max-width: 36%;
+    padding:30px;
     font-size: 24pt;
     font-style: italic;
     margin-top: 45px;
@@ -159,7 +179,7 @@ button{
     border: black solid 1px;
     padding: 15pt;
     width: 50%;
-    margin: 15pt;
+    margin: 30pt;
     background-color: brown;
     color: white;
     border-radius: 25px;
@@ -169,6 +189,11 @@ button{
     margin: 10pt;
     font-size: 20pt;
     font-weight: bold;
+}
+
+.text4{
+    font-size: 18pt;
+    margin: 10px;
 }
 
 
