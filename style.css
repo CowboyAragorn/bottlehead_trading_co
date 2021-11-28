@@ -2,6 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
 }
 
 
@@ -44,6 +45,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: left;
 }
 
 .runner1{
@@ -127,6 +129,9 @@ button{
     max-width: 36%;
     font-size: 24pt;
     font-style: italic;
+    margin-top: 45px;
+    margin-bottom: 0px;
+    
 }
 .attribution{
     display: flex;
@@ -139,11 +144,29 @@ button{
 .container{
     display: flex;
     flex-direction: column;
+    align-content: left;
+    justify-content: left;
 
 }
 
 
 .call2a{
+}
+
+.container{
+    border: black solid 1px;
+    padding: 15pt;
+    width: 50%;
+    margin: 15pt;
+    background-color: brown;
+    color: white;
+    border-radius: 25px;
+}
+
+.text3{
+    margin: 10pt;
+    font-size: 20pt;
+    font-weight: bold;
 }
 
 
