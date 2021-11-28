@@ -61,6 +61,7 @@ a{
     align-items: left;
     flex-wrap: wrap;
     max-width: 40%;
+    max-height: fit-content;
     
 }
 
@@ -172,9 +173,6 @@ button{
 
 }
 
-
-.call2a{
-}
 
 .container{
     border: black solid 1px;
